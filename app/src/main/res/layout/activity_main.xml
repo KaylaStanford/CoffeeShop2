@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.coffeeshop.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/waycool"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Way Cool Beans"
+        android:textSize="48sp"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="570-601-7512"
+        android:textColorLink="#212121"
+        android:textSize="44sp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:textColor="#212121"
+        android:autoLink="phone"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1307 Park Ave Williamsport, PA 17701"
+        android:textSize="38sp"
+        android:layout_margin="16dp"
+        android:textColorLink="#212121"
+        android:layout_centerInParent="true"
+        android:autoLink="map"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"/>
+
+
+</LinearLayout>
